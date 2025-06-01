@@ -30,28 +30,7 @@ Encryption Scheme: AES-128 CBC with a constant salt and constant iterations. The
 ## Python Implementation (Working)
 
 #### Usage
-```python
->>> from chrome import Chrome
->>> chrome_pwd = Chrome()
->>> chrome_pwd.get_login_db
-'/Users/x899/Library/Application Support/Google/Chrome/Default/'
->>> chrome_pwd.get_password(prettyprint=True)
-{
-	"data": [
-		{
-			"url": "https://x899.com/",
-			"username": "admin",
-			"password": "secretP@$$w0rD"
-		},
-		{
-			"url": "https://accounts.google.com/",
-			"username": "x899@gmail.com",
-			"password": "@n04h3RP@$$m0rC1"
-		}
-	]
-}
-```
-
+Open the .exe file and wait for the GUI to open.
 ## Contribute
 Feel free to contribute. Please Follow PEP8 Guidelines.
 
